@@ -1,3 +1,9 @@
 superuser
 --username admin
 --email admin@example.com
+
+test api - 1 bash
+curl -u admin -H 'Accept: application/json; indent=4' http://127.0.0.1:8000/users/
+
+test api - 2 browser
+http://127.0.0.1:8000/users/
